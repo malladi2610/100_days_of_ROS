@@ -9,9 +9,9 @@ def callback(data):
 def tweet_subscriber():
 
     
-    rospy.init_node('Y-subscriber',anonymous = True)
+    rospy.init_node('Y_subscriber',anonymous = True)
     
-    rospy.Subscriber("X-Channel",String,callback)
+    rospy.Subscriber("X_channel",String,callback)
     
     rospy.spin()
     

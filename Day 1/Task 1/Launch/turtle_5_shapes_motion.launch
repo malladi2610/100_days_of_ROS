@@ -3,7 +3,7 @@
 <launch>
 
 <group ns = "turtlesim1">
-<node name = 'turtle_motion_square' pkg = "hello_world_pkg" type = "turtle_motion_square.py"></node>
+<node name = 'turtle_motion_square' pkg = "day_1" type = "turtle_motion_square.py"></node>
 <node pkg="turtlesim" type="turtlesim_node" name="node_turtlesim_square">
         <param name="/turtlesim_node/background_r" value="34" />
         <param name="/turtlesim_node/background_g" value="139" />
@@ -15,7 +15,7 @@
 </group>
 
 <group ns = "turtlesim2">
-<node name = 'turtle_motion_rectangle' pkg = "hello_world_pkg" type = "turtle_motion_rectangle.py"></node>
+<node name = 'turtle_motion_rectangle' pkg = "day_1" type = "turtle_motion_rectangle.py"></node>
 <node pkg="turtlesim" type="turtlesim_node" name="node_turtlesim_rectangle">
         <param name="/turtlesim_node/background_r" value="34" />
         <param name="/turtlesim_node/background_g" value="139" />
@@ -27,7 +27,7 @@
 </group>
 
 <group ns = "turtlesim3">
-<node name = 'turtle_motion_triangle' pkg = "hello_world_pkg" type = "turtle_motion_triangle.py"></node>
+<node name = 'turtle_motion_triangle' pkg = "day_1" type = "turtle_motion_triangle.py"></node>
 <node pkg="turtlesim" type="turtlesim_node" name="node_turtlesim_triangle">
         <param name="/turtlesim_node/background_r" value="34" />
         <param name="/turtlesim_node/background_g" value="139" />
@@ -39,7 +39,7 @@
 </group>
 
 <group ns = "turtlesim4">
-<node name = 'turtle_motion_star' pkg = "hello_world_pkg" type = "turtle_motion_star.py"></node>
+<node name = 'turtle_motion_star' pkg = "day_1" type = "turtle_motion_star.py"></node>
 <node pkg="turtlesim" type="turtlesim_node" name="node_turtlesim_star">
         <param name="/turtlesim_node/background_r" value="34" />
         <param name="/turtlesim_node/background_g" value="139" />

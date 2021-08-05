@@ -1,4 +1,4 @@
 <launch>
-<node name = "X" pkg = "hello_world_pkg" type = "tweet_publisher.py" output = "screen"></node>
-<node name = "Y" pkg = "hello_world_pkg" type = "tweet_subscriber.py" output = "screen"></node>
+<node name = "X_publisher" pkg = "day_1" type = "tweet_publisher.py" output = "screen"></node>
+<node name = "Y_subscriber" pkg = "day_1" type = "tweet_subscriber.py" output = "screen"></node>
 </launch>

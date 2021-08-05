@@ -6,8 +6,8 @@ from std_msgs.msg import String
  
 def tweet_publisher():
     count = 0
-    rospy.init_node('X - publisher',anonymous = True)
-    pub = rospy.Publisher('X - channel',String, queue_size=10)
+    rospy.init_node('X_publisher',anonymous = True)
+    pub = rospy.Publisher('X_channel',String, queue_size=10)
     rate = rospy.Rate(10) #10hz
     
     while not rospy.is_shutdown():

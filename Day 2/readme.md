@@ -85,7 +85,7 @@ rostopic pub toggle_led std_msgs/Empty --once
 
 On running it once LED will turn on
 
-![led_on] (/images/led_on.jpeg)
+![led_on] (https://github.com/malladi2610/100_days_of_ROS/blob/7e2ae831be7bfb31daaac54591a41a2fcab3c107/Day%202/images/led_on.jpeg)
 
 And to turn it off run the same command again
 

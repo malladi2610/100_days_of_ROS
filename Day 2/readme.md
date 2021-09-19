@@ -85,7 +85,7 @@ rostopic pub toggle_led std_msgs/Empty --once
 
 On running it once LED will turn on
 
-![WhatsApp Image 2021-09-18 at 21.33.47.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/37031dbe-72db-4564-89e5-bc73b1e64e79/WhatsApp_Image_2021-09-18_at_21.33.47.jpeg)
+![led_on] (/images/led_on.jpeg)
 
 And to turn it off run the same command again
 

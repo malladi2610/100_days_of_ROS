@@ -57,9 +57,9 @@ The message from the Arduino will be sent to the pc. This can be seen by running
 rostopic echo /chatter
 ```
 
-![Screenshot from 2021-09-15 22-33-28.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/501839c5-6359-4976-af97-f79ee6779056/Screenshot_from_2021-09-15_22-33-28.png)
+![publisher](images/publisher.png)
 
-                                                             This is the final result
+This is the final Result
 
 **Task 3: Blinking LED**
 
@@ -89,11 +89,11 @@ On running it once LED will turn on
 
 And to turn it off run the same command again
 
-![WhatsApp Image 2021-09-18 at 21.33.46.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/06b5dd7a-a01c-4d29-960b-fb6dc3093cc8/WhatsApp_Image_2021-09-18_at_21.33.46.jpeg)
+![led_off](images/led_off.jpeg)
 
 This is how the terminal window looks 
 
-![Screenshot from 2021-09-17 23-24-03.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1160c30c-7c86-4a1a-a5be-a86a999e42b7/Screenshot_from_2021-09-17_23-24-03.png)
+![Terminal](images/terminal.png)
 
 # Result
 

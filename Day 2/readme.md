@@ -85,7 +85,7 @@ rostopic pub toggle_led std_msgs/Empty --once
 
 On running it once LED will turn on
 
-![led_on]{Task 2/images/led_off.jpeg}
+![led_on]{Day 2/images/led_off.jpeg}
 
 And to turn it off run the same command again
 

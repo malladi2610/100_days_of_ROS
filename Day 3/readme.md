@@ -57,7 +57,7 @@ rosrun <package_name> <python_file_name>
 rosrun day3 arduino_subscriber_hello_world.py //This is the command used in my case
 ```
 
-![terminal_output](/Publisher_helloworld/Python_script/arduino_subscriber_hello_world.py)
+![terminal_output](/images/terminal_output.png)
 
 
 This is the final result

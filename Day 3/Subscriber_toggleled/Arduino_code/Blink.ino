@@ -9,14 +9,14 @@
 ros::NodeHandle  nh;
 
 void messageCb( const std_msgs::Empty& toggle_msg){
-  digitalWrite(11, HIGH-digitalRead(11));   // blink the led
+  digitalWrite(13, HIGH-digitalRead(13));   // blink the led
 }
 
 ros::Subscriber<std_msgs::Empty> sub("toggle_led", &messageCb );
 
 void setup()
 { 
-  pinMode(11, OUTPUT);
+  pinMode(13, OUTPUT);
   nh.initNode();
   nh.subscribe(sub);
 }

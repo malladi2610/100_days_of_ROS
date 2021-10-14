@@ -62,5 +62,7 @@ rosrun day3 arduino_subscriber_hello_world.py //This is the command used in my c
 
 This is the final result
 
+Video link : 
+
 **Task 4: Blinking LED with python script**
 

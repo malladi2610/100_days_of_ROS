@@ -62,7 +62,7 @@ rosrun day3 arduino_subscriber_hello_world.py //This is the command used in my c
 
 This is the final result
 
-Video link : 
+Video link : https://youtu.be/_4oheWaDX8c
 
 **Task 4: Blinking LED with python script**
 
@@ -86,5 +86,9 @@ The code is ran by the same set of commands used in the above example
 The terminal output is as follows
 
 ![terminal_output](images/terminal_output_subscriber.png)
+
+This is the final result
+
+Video link : https://youtu.be/DVLero2-goQ
 
 

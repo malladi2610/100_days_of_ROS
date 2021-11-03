@@ -57,7 +57,7 @@ rosrun <package_name> <python_file_name>
 rosrun day3 arduino_subscriber_hello_world.py //This is the command used in my case
 ```
 
-![terminal_output](images/terminal_output.png)
+![terminal_output](images/terminal_output_publisher.png)
 
 
 This is the final result
@@ -65,4 +65,26 @@ This is the final result
 Video link : 
 
 **Task 4: Blinking LED with python script**
+
+1. Upload the blinking LED code in the Arduino examples provided in the ros_lib library
+2. Now write a simple publisher node using python which will publish the Empty message on to the /toggleled topic which is being subscribed by the node which is running in the Arduino
+3. The python snippet is as follows
+
+```def arduino_publisher():
+    rospy.init_node('arduino_publisher', anonymous = True)
+    pub = rospy.Publisher('toggle_led', Empty, queue_size = 10)
+    
+    while not rospy.is_shutdown():
+        rospy.loginfo("Trigger to turn ON/OFF the LED")
+        pub.publish()
+        
+        rospy.sleep(5)
+```
+
+The code is ran by the same set of commands used in the above example
+
+The terminal output is as follows
+
+![terminal_output](images/terminal_output_subscriber.png)
+
 

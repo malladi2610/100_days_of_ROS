@@ -5,18 +5,19 @@
 
 #include <ros.h>
 #include <std_msgs/Empty.h>
+#include
 
 ros::NodeHandle  nh;
 
 void messageCb( const std_msgs::Empty& toggle_msg){
-  digitalWrite(13, HIGH-digitalRead(13));   // blink the led
+  digitalWrite(LED_BUILTIN, HIGH-digitalRead(LED_BUILTIN));   // blink the led
 }
 
 ros::Subscriber<std_msgs::Empty> sub("toggle_led", &messageCb );
 
 void setup()
 { 
-  pinMode(13, OUTPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
   nh.initNode();
   nh.subscribe(sub);
 }

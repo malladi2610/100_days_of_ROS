@@ -40,7 +40,7 @@ And **Voila!**
 
 This is the final result
 
-Video link : 
+Video link : https://youtu.be/WR1zD4wXk_I
 
 8. The rqt_graph is as follows
 ![rqt_graph](images/rqt_graph.png)

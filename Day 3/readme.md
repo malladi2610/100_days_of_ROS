@@ -3,15 +3,17 @@
 **Task 3**
 
 1. Reading the Hello world message by using a python script
+2. Learning about the string_msgs
 
 **Task 4**
 
 1. Toggling the led with python code instead of running the command from the terminal
+2. Learning about Empty_msgs type
 
 # Tools Used
 
 1. Arduino IDE
-2. Arduino UNO
+2. Arduino MEGA
 3. LED
 
 # Procedure

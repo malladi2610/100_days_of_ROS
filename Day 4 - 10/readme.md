@@ -3,6 +3,7 @@
 **Task 5**
 
 1. Control the turtle in turtlesim using the joystick
+2. Learning about geometry_msgs 
 
 # Tools Used
 
@@ -38,12 +39,14 @@ rostopic echo /turtle1/cmd_vel
 
 And **Voila!**
 
-This is the final result
+8. The rqt_graph is as follows
+![rqt_graph](images/rqt_graph.png)
+
+# Result
 
 Video link : https://youtu.be/WR1zD4wXk_I
 
-8. The rqt_graph is as follows
-![rqt_graph](images/rqt_graph.png)
+
 
 
 

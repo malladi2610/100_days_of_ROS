@@ -95,6 +95,6 @@ Ex. rosrun task7 custom_msg_subscriber.py
 
 # Result
 
-## video link
+**video link**
 - Task 6:
-- Task 7:
+- Task 7: https://youtu.be/o-UopI7PGlE

@@ -1,10 +1,10 @@
 # Learning Objectives
 
-**Task 6**
+**Task 7**
 1. Interfacing of the Sensor with Arduino and reading the data from it using ROS
 2. Learning about using the new message type i.e sensor_msgs
 
-**Task 7**
+**Task 8**
 1. Creating Custom messages and using them by creating a simple publisher and subscriber nodes
 
 # Tools Used
@@ -96,5 +96,5 @@ Ex. rosrun task7 custom_msg_subscriber.py
 # Result
 
 **video link**
-- Task 6:
-- Task 7: https://youtu.be/o-UopI7PGlE
+- Task 7:
+- Task 8: https://youtu.be/o-UopI7PGlE

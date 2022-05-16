@@ -10,11 +10,7 @@ def custommsgCallback(mymsg):
 
 def custommsgListner():
 
-    # In ROS, nodes are uniquely named. If two nodes with the same
-    # name are launched, the previous one is kicked off. The
-    # anonymous=True flag means that rospy will choose a unique
-    # name for our 'sensorInfoListener' node so that multiple listeners can
-    # run simultaneously.
+   
     rospy.init_node('custom_msg_subscriber', anonymous=False)
 
     rospy.Subscriber('custom_msg_info', custommessage, custommsgCallback)

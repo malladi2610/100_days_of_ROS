@@ -8,11 +8,12 @@
 - [Task 5](https://github.com/malladi2610/100_days_of_ROS/tree/master/Day%203) - Controlling LED using python script
 - [Task 6](https://github.com/malladi2610/100_days_of_ROS/tree/master/Day%203) - 
 Controlling the turtle in the simulator using joystick
-- [Task 7](https://github.com/malladi2610/100_days_of_ROS/tree/master/Day%2010%20-%2030/task6) - Interfacing Ultrasonic sensor with Arduino and reading the data using ROS
-- [Task 8](https://github.com/malladi2610/100_days_of_ROS/tree/master/Day%2010%20-%2030/task7) - Creating Custom messages
-- ROS Services and Actions
+- [Task 7](https://github.com/malladi2610/100_days_of_ROS/tree/master/Day%2010%20-%2030/Task%207) - Interfacing Ultrasonic sensor with Arduino and reading the data using ROS
+- [Task 8](https://github.com/malladi2610/100_days_of_ROS/tree/master/Day%2010%20-%2030/Task%208) - Creating Custom messages
+- [Task 9] - ROS Services
+- [Task 10] - ROS Actions
 ## Phase 2 - Autonomous Rover
-- Task 9 - Designing of the Rover in Fusion 360
+- [Task 11] - Designing of the Rover in Fusion 360
 
 # Installation of the ROS
 

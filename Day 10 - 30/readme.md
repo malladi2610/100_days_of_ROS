@@ -14,7 +14,7 @@
 
 # Procedure
 
-**Task 6: Interfacing of the ultrasonic sensor**
+**Task 7: Interfacing of the ultrasonic sensor**
 
 1. To interface the ultrasonic sensor with Arduino make the circuit connections as follows
 ![Circuit](images/task6_circuit.jpeg)
@@ -45,7 +45,7 @@ rosrun task6 ultrasonic_sensor_sub.py
 6. The output is as follows
 ![output](images/task6_output.png)
 
-**Task 7: Creating custom messages**
+**Task 8: Creating custom messages**
 1. ROS messages are derived datatypes like Arrays, functions, pointer in C++
 2. To create custom message, we have to create ```msg``` folder in the package
 3. In the ```msg``` folder, create a file with .msg extension, this file contains the contents what will be carried by the message
@@ -55,7 +55,8 @@ string name
 uint32 number
 ```
 Here the message will contain the name and the number
-4.Now to let the ROS know that a custom message has been created, changes need to be done to the ```package.xml``` file and the ```CMakeList.txt``` file in the ROS package
+
+4. Now to let the ROS know that a custom message has been created, changes need to be done to the ```package.xml``` file and the ```CMakeList.txt``` file in the ROS package
 5. The Changes to the package.xml is as follows
 ![package](images/task7_package.png)
 6. The CMakeList.txt is as follows
@@ -96,5 +97,5 @@ Ex. rosrun task7 custom_msg_subscriber.py
 # Result
 
 **video link**
-- Task 7:
+- Task 7: https://youtu.be/v4-4cYjwWJ4
 - Task 8: https://youtu.be/o-UopI7PGlE

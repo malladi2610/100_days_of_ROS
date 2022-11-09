@@ -10,7 +10,7 @@
 - [Task 7](https://github.com/malladi2610/100_days_of_ROS/tree/master/Task_7%20%26%20Task_8) - Interfacing Ultrasonic sensor with Arduino and reading the data using ROS
 - [Task 8](https://github.com/malladi2610/100_days_of_ROS/tree/master/Task_7%20%26%20Task_8) - Creating Custom messages
 - [Task 9](https://github.com/malladi2610/100_days_of_ROS/tree/master/Task_9%20%26%20Task_10) - ROS Services
-- [Task 10(]https://github.com/malladi2610/100_days_of_ROS/tree/master/Task_9%20%26%20Task_10) - ROS Actions
+- [Task 10](https://github.com/malladi2610/100_days_of_ROS/tree/master/Task_9%20%26%20Task_10) - ROS Actions
 ## Phase 2 - Autonomous Rover
 - [Task 11] - Designing of the Rover in Fusion 360
 

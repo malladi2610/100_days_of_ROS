@@ -51,4 +51,4 @@ This can be translated to the robot usecase, where a clinet_node requests for th
 # Result
 ![results](images/results.png)
 
-**video link**: https://youtu.be/uWQ5ugQ2oVw
+**Video link**: https://youtu.be/uWQ5ugQ2oVw
